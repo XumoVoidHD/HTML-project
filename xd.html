@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            margin: 0 10px;
+            font-size: 1.1em;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .projects, .skills {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .project, .skill {
+            background-color: #fff;
+            padding: 20px;
+            width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .project img, .skill img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <h1>Vedansh Sahay</h1>
+        <p>Student at VIT Chennai</p>
+        <p>Hello! I'm Vedansh Sahay, a second-year student at VIT Chennai, pursuing my degree in [your degree, e.g., Computer Science and Engineering]. I have a deep interest in technology, programming, and problem-solving, and I am passionate about applying my skills to real-world challenges.
+
+            I recently completed an internship at Numatix Solutions as a Quantitative Software Engineer, where I had the opportunity to work on advanced algorithms and data analysis tools. During my time there, I gained hands-on experience in [mention some key skills or technologies you worked with during the internship, like Python, quantitative analysis, machine learning, etc.], and it further strengthened my problem-solving abilities.
+            
+            I'm constantly looking to learn new technologies and work on exciting projects that allow me to grow both academically and professionally.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>IBKR Options Trading bot</h3>
+                <p>a</p>
+                <a href="https://github.com/XumoVoidHD/ibkr-new">View Project</a>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>CapitalFlow webscrapper</h3>
+                <p>b</p>
+                <a href="https://github.com/XumoVoidHD/CapitalFlow-webscrapper">View Project</a>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project Title 3</h3>
+                <p>c</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <img src="html-icon.png" alt="HTML">
+                <h3>HTML</h3>
+                <p>Expertise in structuring web pages using HTML.</p>
+            </div>
+            <div class="skill">
+                <img src="css-icon.png" alt="CSS">
+                <h3>CSS</h3>
+                <p>Skilled in creating responsive layouts with CSS.</p>
+            </div>
+            <div class="skill">
+                <img src="js-icon.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Experienced in scripting dynamic web interactions using JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+        <p>Email: vedansh.sahay2023@vitsudent.ac.in</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/" target="_blank">Your LinkedIn Profile</a></p>
+    </section>
+
+</body>
+</html>

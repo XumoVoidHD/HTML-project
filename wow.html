@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vedansh Sahay - Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid #444;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            font-weight: 300;
+            margin-top: 10px;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 12px;
+            font-size: 1.1em;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            margin: 0 15px;
+            transition: all 0.3s ease-in-out;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            transform: scale(1.05);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        /* About Section */
+        #about p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #555;
+        }
+
+        /* Projects Section */
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .project img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .project:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        .project a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        /* Skills Section */
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .skill {
+            background-color: #fff;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .skill img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+        .skill:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Contact Section */
+        #contact p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <h1>Vedansh Sahay</h1>
+        <p>Hello! I'm Vedansh Sahay, a second-year student at VIT Chennai, pursuing my degree in Computer Science and Engineering. I have a deep interest in technology, programming, and problem-solving, and I am passionate about applying my skills to real-world challenges.
+
+        I recently completed an internship at Numatix Solutions as a Quantitative Software Engineer, where I had the opportunity to work on advanced algorithms and data analysis tools. During my time there, I gained hands-on experience in Python, machine learning, and quantitative analysis, which further strengthened my problem-solving abilities.
+
+        I'm constantly looking to learn new technologies and work on exciting projects that allow me to grow both academically and professionally.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>IBKR Options Trading Bot</h3>
+                <p>A trading bot designed to automate options trading using the Interactive Brokers API.</p>
+                <a href="https://github.com/XumoVoidHD/ibkr-new">View Project</a>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>CapitalFlow Web Scraper</h3>
+                <p>A Python-based web scraper that extracts financial data from multiple sources.</p>
+                <a href="https://github.com/XumoVoidHD/CapitalFlow-webscrapper">View Project</a>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project Title 3</h3>
+                <p>Description of Project 3</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <img src="html-icon.png" alt="HTML">
+                <h3>HTML</h3>
+                <p>Expertise in structuring web pages using HTML.</p>
+            </div>
+            <div class="skill">
+                <img src="css-icon.png" alt="CSS">
+                <h3>CSS</h3>
+                <p>Skilled in creating responsive layouts with CSS.</p>
+            </div>
+            <div class="skill">
+                <img src="js-icon.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Experienced in scripting dynamic web interactions using JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+        <p>Email: vedansh.sahay2023@vitsudent.ac.in</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Vedansh Sahay. All rights reserved. | <a href="https://github.com/yourprofile" target="_blank">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
